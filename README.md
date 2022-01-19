@@ -38,6 +38,18 @@ Agora com seu repositório criado, você tem a possibilidade de coletar as infor
 
 Ao clicar em um determinado arquivo, abre-se uma aba no GitHub de todo o código dele. Nela, você pode fazer eventuais correções que não foram feitas anteriormente ou até montar do zero uma linha de código! Porém é importante saber que para que essas novas informações sejam salvas, você precisa commitá-las em "Commit changes", um botão que fica bem ao final da página na cor verde.
 
+Ok, mas como posso pegar esse repositório e trabalhar com ele localmente? É simples!
+
+## Como baixar um repositório em uma máquina local? :disappointed_relieved:
+
+Existem várias formas de realizar o download de um repositório no GitHub. Uma delas seria criando um arquivo ZIP, que ao acessar a aba "Code" em verde você consegue localizar essa função.
+
+<p align="center">
+   <img src="/img/Screenshot_2.png" alt="Arquivo_zip">
+</p>
+
+Além disso, você pode usar a opção clone do Github que está disponível em opções HTTPS, SSH e GitHubCLI.
+
 ## Links para saber mais sobre Markdown e edições desse tipo de arquivo: ⤵️
 [Sintaxe Básica do Markdonw](https://www.markdownguide.org/basic-syntax/) <br>
 [Emojis disponíveis para uso no Markdown](https://gist.github.com/rxaviers/7360908)
