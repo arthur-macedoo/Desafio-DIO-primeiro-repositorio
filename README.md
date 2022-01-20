@@ -50,6 +50,18 @@ Existem várias formas de realizar o download de um repositório no GitHub. Uma 
 
 Além disso, você pode usar a opção clone do Github que está disponível em opções HTTPS, SSH e GitHubCLI.
 
+### HTTPS 🖥️
+
+Para usar o Git clone em HTTPS, basta criar uma pasta em seu computador para guardar todo o repositório, abrir o Git Bash nela [(caso não tenha, entenda como baixar aqui)](https://www.webdevdrops.com/git-bash-como-instalar-usar/) e usar o comando "git clone" com a URL que você copiou no GitHub.
+
+### SSH 🔑
+
+Para usar o Git clone em SSH (um nova forma de autenticação do GitHub, mais segura e com criptografia de ponta a ponta), primeiro deve-se criar uma nova chave com sua máquina e depois, acessá-la em sua conta no GitHub em Configurações>SSH e chaves GPG. Feito isso, basta usar a função "git clone" com a cópia da URL SSH disponível do GitHub e confirmar sua ação.
+
+## Edições locais do repositório em nossa máquina e sincronizá-la com o GitHub; 🔧⬆️
+
+Baixado o repositório e feita todas as mudanças desejadas, basta usar a função "git add ." ou "git add -A", para salvar suas alterações para mostrar ao Git que você deseja salvá-las. Após isso é usada a função 'git -m "(com um comentário aqui para mostrar o que alteramos ao commitar)"' e em seguida o "git push" para enviar todo o novo conteúdo para o GitHub!
+
 ## Links para saber mais sobre Markdown e edições desse tipo de arquivo: ⤵️
 [Sintaxe Básica do Markdonw](https://www.markdownguide.org/basic-syntax/) <br>
 [Emojis disponíveis para uso no Markdown](https://gist.github.com/rxaviers/7360908)
